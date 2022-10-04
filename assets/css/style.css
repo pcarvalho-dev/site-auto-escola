@@ -38,8 +38,17 @@ body {
 
 .cabecalho-menu a:hover {
     border-bottom: 2px solid red;
+    margin-bottom: -2px;
 }
 
-.cabecalho-menu a: {
-    background-color: red;
+.cabecalho-social {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-left: 2.5px solid red;
+}
+
+.cabecalho-social a {
+    color: white;
+    margin-left: 15px;
 }
